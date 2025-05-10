@@ -1,0 +1,53 @@
+<element>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <display-name>Expense Manager</display-name>
+    
+    <servlet>
+        <servlet-name>AddExpenseServlet</servlet-name>
+        <servlet-class>com.example.servlet.AddExpenseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddExpenseServlet</servlet-name>
+        <url-pattern>/add-expense</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UpdateExpenseServlet</servlet-name>
+        <servlet-class>com.example.servlet.UpdateExpenseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateExpenseServlet</servlet-name>
+        <url-pattern>/update-expense</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RemoveExpenseServlet</servlet-name>
+        <servlet-class>com.example.servlet.RemoveExpenseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveExpenseServlet</servlet-name>
+        <url-pattern>/remove-expense</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ViewExpensesServlet</servlet-name>
+        <servlet-class>com.example.servlet.ViewExpensesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewExpensesServlet</servlet-name>
+        <url-pattern>/view-expenses</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GenerateReportServlet</servlet-name>
+        <servlet-class>com.example.servlet.GenerateReportServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GenerateReportServlet</servlet-name>
+        <url-pattern>/generate-report</url-pattern>
+    </servlet-mapping>
+</web-app>
+</element>

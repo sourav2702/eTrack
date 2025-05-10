@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [12/Mar/2025:07:46:13 +0530] "GET /expense-manager HTTP/1.1" 302 - http-bio-8005-exec-1 0
+0:0:0:0:0:0:0:1 - - [12/Mar/2025:07:46:14 +0530] "GET /expense-manager/ HTTP/1.1" 200 2290 http-bio-8005-exec-3 441
+0:0:0:0:0:0:0:1 - - [12/Mar/2025:07:46:14 +0530] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8005-exec-4 0
+0:0:0:0:0:0:0:1 - - [12/Mar/2025:07:46:54 +0530] "GET /expense-manager/view-expenses HTTP/1.1" 500 2659 http-bio-8005-exec-5 358

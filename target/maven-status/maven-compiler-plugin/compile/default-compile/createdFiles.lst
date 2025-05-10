@@ -1,0 +1,7 @@
+com\example\servlet\GenerateReportServlet.class
+com\example\model\Expense.class
+com\example\servlet\UpdateExpenseServlet.class
+com\example\dao\ExpenseDAO.class
+com\example\servlet\ViewExpensesServlet.class
+com\example\servlet\AddExpenseServlet.class
+com\example\servlet\RemoveExpenseServlet.class
